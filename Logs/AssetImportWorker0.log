@@ -1,0 +1,866 @@
+Unity Editor version:    2021.3.2f1 (d6360bedb9a0)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H15)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ridvangulce/Desktop/UnityProjects/MultiCrash
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50783
+Successfully changed project path to: /Users/ridvangulce/Desktop/UnityProjects/MultiCrash
+/Users/ridvangulce/Desktop/UnityProjects/MultiCrash
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 979.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+S22F350 preferred device: Intel HD Graphics 4000 (low power)
+Metal devices available: 1
+0: Intel HD Graphics 4000 (low power)
+Using device Intel HD Graphics 4000 (low power)
+Initializing Metal device caps: Intel HD Graphics 4000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.007937 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 677.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.364 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7372ms)
+		BeginReloadAssembly (1320ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (4507ms)
+			LoadAssemblies (1324ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1095ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (2995ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (660ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (677ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (1364ms)
+				ProcessInitializeOnLoadMethodAttributes (284ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.047714 seconds.
+Android Extension - Scanning For ADB Devices 4186 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  7.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7464ms)
+		BeginReloadAssembly (751ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (5997ms)
+			LoadAssemblies (653ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1316ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (352ms)
+			SetupLoadedEditorAssemblies (3402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (113ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (321ms)
+				ProcessInitializeOnLoadAttributes (2490ms)
+				ProcessInitializeOnLoadMethodAttributes (448ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (69ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (72.7 KB). Loaded Objects now: 3898.
+Memory consumption went from 219.0 MB to 218.9 MB.
+Total: 9.307864 ms (FindLiveObjects: 0.682909 ms CreateObjectMapping: 0.712501 ms MarkObjects: 7.577470 ms  DeleteObjects: 0.332428 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3660.804608 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9990f39c3de691f85cda2915bc54e9c4') in 1.049932 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4442ms)
+		BeginReloadAssembly (595ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (185ms)
+		EndReloadAssembly (3516ms)
+			LoadAssemblies (506ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1010ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (201ms)
+			SetupLoadedEditorAssemblies (1799ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (895ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (689ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 3904.
+Memory consumption went from 226.7 MB to 226.1 MB.
+Total: 9.600546 ms (FindLiveObjects: 0.663058 ms CreateObjectMapping: 0.503602 ms MarkObjects: 7.648072 ms  DeleteObjects: 0.783082 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004184 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.858 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2859ms)
+		BeginReloadAssembly (416ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (2155ms)
+			LoadAssemblies (318ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (878ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (816ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (121ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (498ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.9 MB). Loaded Objects now: 3914.
+Memory consumption went from 231.1 MB to 229.2 MB.
+Total: 16.866138 ms (FindLiveObjects: 0.387810 ms CreateObjectMapping: 0.275607 ms MarkObjects: 9.931761 ms  DeleteObjects: 6.268555 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 233.469755 seconds.
+  path: Assets/RCK 2.3
+  artifactKey: Guid(ad7d61a3cf6ed42e4842d3e6df734c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3 using Guid(ad7d61a3cf6ed42e4842d3e6df734c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a069b0b0721ee0cb20f8471eba896d3') in 0.008638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057540 seconds.
+  path: Assets/RCK 2.3/Pivot.png
+  artifactKey: Guid(baa813e7806e8234db1321ac0cd75a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Pivot.png using Guid(baa813e7806e8234db1321ac0cd75a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0ab1fc0e0416854d215657b2e8bb35') in 0.577650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.565266 seconds.
+  path: Assets/RCK 2.3/Scenes
+  artifactKey: Guid(d3f61454f8b11194180a3803e5a7742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Scenes using Guid(d3f61454f8b11194180a3803e5a7742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeff910e96920b9d286dc2a667d9140e') in 0.005110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.575303 seconds.
+  path: Assets/RCK 2.3/Scenes/Touch.unity
+  artifactKey: Guid(bde89eb850a7885499c3b4a4738905e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Scenes/Touch.unity using Guid(bde89eb850a7885499c3b4a4738905e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670472d8a5b427ba0c1c870897c4e9c9') in 0.001679 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005047 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.452 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4459ms)
+		BeginReloadAssembly (391ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (3790ms)
+			LoadAssemblies (401ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1151ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (227ms)
+			SetupLoadedEditorAssemblies (1781ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (286ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (258ms)
+				ProcessInitializeOnLoadAttributes (1087ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.9 MB). Loaded Objects now: 3919.
+Memory consumption went from 235.7 MB to 233.8 MB.
+Total: 13.859362 ms (FindLiveObjects: 1.029800 ms CreateObjectMapping: 1.262384 ms MarkObjects: 10.089737 ms  DeleteObjects: 1.474180 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140.338872 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0314de4939330f30631d5118ab8907') in 0.025425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.436748 seconds.
+  path: Assets/RCK 2.3/Scenes/Level 1.unity
+  artifactKey: Guid(bde89eb850a7885499c3b4a4738905e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Scenes/Level 1.unity using Guid(bde89eb850a7885499c3b4a4738905e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dc8a8c1ab4ee319522cc2086ed65ed') in 0.003113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.940469 seconds.
+  path: Assets/RCK 2.3/Scenes/TouchSettings.lighting
+  artifactKey: Guid(95106c44ff48c45888928bd55bd20804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Scenes/TouchSettings.lighting using Guid(95106c44ff48c45888928bd55bd20804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '034aca25786bab33ffc7711a04198e6b') in 0.269215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.149477 seconds.
+  path: Assets/RCK 2.3/Scenes/Level 1Settings.lighting
+  artifactKey: Guid(95106c44ff48c45888928bd55bd20804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Scenes/Level 1Settings.lighting using Guid(95106c44ff48c45888928bd55bd20804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '9eace64e1153c7264609a10448a577b6') in 0.008180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.444344 seconds.
+  path: Assets/Scenes/Level 0.unity
+  artifactKey: Guid(90f6a2587005e4c10b4faec154ec7c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 0.unity using Guid(90f6a2587005e4c10b4faec154ec7c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538dbc9735966ca6818bcde6195afa9d') in 0.007694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 374.286411 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/OldCar/OldCar.FBX
+  artifactKey: Guid(2367f3eccca72d648a9f993fdcd54cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/OldCar/OldCar.FBX using Guid(2367f3eccca72d648a9f993fdcd54cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce3f6f59348ec5d1620a9d1ad69e79e') in 3.621581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.707095 seconds.
+  path: Assets/RCK 2.3/Perfabs
+  artifactKey: Guid(4df001699d3091f479b88c85541d15ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs using Guid(4df001699d3091f479b88c85541d15ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ea3f50f5e908f70d09f5aadec22e2d') in 0.002267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035704 seconds.
+  path: Assets/RCK 2.3/Perfabs/Main Camera.prefab
+  artifactKey: Guid(8512d52775bf95340b741dfb9552c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Main Camera.prefab using Guid(8512d52775bf95340b741dfb9552c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e58302427e07af3890a7454add3577d') in 0.244374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/RCK 2.3/Perfabs/WheelParticle(Brake).prefab
+  artifactKey: Guid(7688b4d44a0c11a43b20da32baad8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/WheelParticle(Brake).prefab using Guid(7688b4d44a0c11a43b20da32baad8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b0b1a96ed5893d0414fcaba968ba1c') in 0.114105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.098452 seconds.
+  path: Assets/RCK 2.3/Perfabs/Vahicles
+  artifactKey: Guid(04515120100943d4389c87a3a56fe728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Vahicles using Guid(04515120100943d4389c87a3a56fe728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8930048f73181f5bcba7d2dffcab67') in 0.005649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085147 seconds.
+  path: Assets/RCK 2.3/Perfabs/Vahicles/OldCar.prefab
+  artifactKey: Guid(72662286a75375c4e907bc20dd734a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Vahicles/OldCar.prefab using Guid(72662286a75375c4e907bc20dd734a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c219bb41c46f671db712490ef0f389') in 0.492608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/RCK 2.3/Perfabs/Vahicles/PoliceCar (Mobaile).prefab
+  artifactKey: Guid(736c3d00ccb78fe42b5826b758aa3fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Vahicles/PoliceCar (Mobaile).prefab using Guid(736c3d00ccb78fe42b5826b758aa3fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c8b73ccf76eb85586ab3adfb38655e') in 1.255472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/RCK 2.3/Perfabs/Vahicles/PoliceCar.prefab
+  artifactKey: Guid(ac375dc36289de94181575d51096d152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Vahicles/PoliceCar.prefab using Guid(ac375dc36289de94181575d51096d152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f58981ac58637f6ebf2175c69033a6e') in 0.059666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/RCK 2.3/Perfabs/Vahicles/RallyCar.prefab
+  artifactKey: Guid(b82529e8ddfc06e4fb493d04ff82ec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Vahicles/RallyCar.prefab using Guid(b82529e8ddfc06e4fb493d04ff82ec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376fb76ff5d0044b4692653a6bde626a') in 0.642845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.831204 seconds.
+  path: Assets/_ApocalypticVehiclesPack/Bus_green.prefab
+  artifactKey: Guid(8dcf1e1a9552d144db500adf60f2b638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/Bus_green.prefab using Guid(8dcf1e1a9552d144db500adf60f2b638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda7a1e29520fcc8f2e4ab808c7203e2') in 0.671035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/_ApocalypticVehiclesPack/New Cubemap true_for_gold 1.cubemap
+  artifactKey: Guid(73240d2c60cbff94488f11fe2fdfb43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/New Cubemap true_for_gold 1.cubemap using Guid(73240d2c60cbff94488f11fe2fdfb43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95a839160891db6134fcb8cdb3ef4ad') in 0.401798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/_ApocalypticVehiclesPack/police_car.prefab
+  artifactKey: Guid(6daf105ba8424cd41a3860d81b2e26f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/police_car.prefab using Guid(6daf105ba8424cd41a3860d81b2e26f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021db9f41ca419b44702b43dffc31f50') in 0.568739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/_ApocalypticVehiclesPack/MinibusBlue.prefab
+  artifactKey: Guid(da4be5bf2f09d0444bc510ff3749adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/MinibusBlue.prefab using Guid(da4be5bf2f09d0444bc510ff3749adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c349224acbe6cfef619e8ff2f9c049e') in 0.148788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/_ApocalypticVehiclesPack/MinibusGreen.prefab
+  artifactKey: Guid(93d2ca29268bb9a48b6194de56af10a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/MinibusGreen.prefab using Guid(93d2ca29268bb9a48b6194de56af10a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c3deccf405c3e4ac86f9a2238c166a') in 0.106232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/_ApocalypticVehiclesPack/Sedan.prefab
+  artifactKey: Guid(f9173372f55ed3b4ea869dee6eee2405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/Sedan.prefab using Guid(f9173372f55ed3b4ea869dee6eee2405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf82f8853de3e443fae98993bbd4d28') in 0.092035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/_ApocalypticVehiclesPack/Bus_yellow.prefab
+  artifactKey: Guid(026f97d3122a47241b39f822c25fc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/Bus_yellow.prefab using Guid(026f97d3122a47241b39f822c25fc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de698d405b5d20508c5fcc94cc8091a9') in 0.084210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/_ApocalypticVehiclesPack/SedanSmall.prefab
+  artifactKey: Guid(3e1c2d30513cfd544a05c1ab30e40319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/SedanSmall.prefab using Guid(3e1c2d30513cfd544a05c1ab30e40319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f682afe6b61d89c3cabe1346a1b671') in 0.115625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/_ApocalypticVehiclesPack/MinibusBlack.prefab
+  artifactKey: Guid(1605283017715a3408dff708db2923d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/MinibusBlack.prefab using Guid(1605283017715a3408dff708db2923d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64b2c3d202aec17fafbd4289a5f03ef') in 0.100398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/_ApocalypticVehiclesPack/SedanCreased.prefab
+  artifactKey: Guid(6813dfbc046af774da6fb8ea765bc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ApocalypticVehiclesPack/SedanCreased.prefab using Guid(6813dfbc046af774da6fb8ea765bc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b9228e779f78c6704f7770a38dc08c') in 0.077844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.177124 seconds.
+  path: Assets/Cars/Lambo.unity
+  artifactKey: Guid(effb39c306f390841ba1872da152077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Lambo.unity using Guid(effb39c306f390841ba1872da152077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f71d9220bde4be21dcf3f0c258c42b1') in 0.022952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.360487 seconds.
+  path: Assets/Cars/Prefabs
+  artifactKey: Guid(2d1a2d68e6d10bd48bdebb5e781d679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs using Guid(2d1a2d68e6d10bd48bdebb5e781d679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5eec331b6bd5821e37d9a6a481645b') in 0.003123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.732834 seconds.
+  path: Assets/Cars/Prefabs/350 sports Variant.prefab
+  artifactKey: Guid(4e5d0e807dbad91499504a38d4068b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/350 sports Variant.prefab using Guid(4e5d0e807dbad91499504a38d4068b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa29d5d1007dc9cce7b316f8e7ed7f1b') in 0.109804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Cars/Prefabs/sports gt 2015 Variant.prefab
+  artifactKey: Guid(a39ce2ecab73704449bc8afb8c10eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/sports gt 2015 Variant.prefab using Guid(a39ce2ecab73704449bc8afb8c10eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4503cfa76a95654895a133e18aa5d1af') in 0.124202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Cars/Prefabs/h3 SUV Variant.prefab
+  artifactKey: Guid(eb4cd9e1ed9c06440b0fbfe236de3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/h3 SUV Variant.prefab using Guid(eb4cd9e1ed9c06440b0fbfe236de3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd192dba9b179cf5aa0b1bf675215b6b0') in 0.140121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Cars/Prefabs/2019 long truck Variant.prefab
+  artifactKey: Guid(feb6438494a74af4693b3d11a6e467d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/2019 long truck Variant.prefab using Guid(feb6438494a74af4693b3d11a6e467d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f4dcab358c8d358ae2581a43e7e3d7') in 0.266110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Cars/Prefabs/2016 sports charged Variant.prefab
+  artifactKey: Guid(11ebeb0d0535e1e43a3407977d78acb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/2016 sports charged Variant.prefab using Guid(11ebeb0d0535e1e43a3407977d78acb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef74372d1bfd0a68f475da9d664221a0') in 0.114110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Cars/Prefabs/2019 truck Variant.prefab
+  artifactKey: Guid(a176210b9cb0c8745a10d00461784660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/2019 truck Variant.prefab using Guid(a176210b9cb0c8745a10d00461784660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6368df7677774c2c49a8f8db9113e1e3') in 0.221602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Cars/Prefabs/rx sports Variant.prefab
+  artifactKey: Guid(2d7623eac5bee3c41b5304a3ba5b3c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/rx sports Variant.prefab using Guid(2d7623eac5bee3c41b5304a3ba5b3c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07bc34bb69000be300d3bc65f744016') in 0.208850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Cars/Prefabs/1969 classic Variant.prefab
+  artifactKey: Guid(3265c51107ec9bc408a482ef4eb9d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/1969 classic Variant.prefab using Guid(3265c51107ec9bc408a482ef4eb9d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30029d3d06839b8e1003a26ffb3a1c6a') in 0.157610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Cars/Prefabs/1966 classic sedan Variant.prefab
+  artifactKey: Guid(ded135f1fd6c8524098faa6043b7f6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/1966 classic sedan Variant.prefab using Guid(ded135f1fd6c8524098faa6043b7f6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274c466f02105c70f592a78ba8c7137f') in 0.257487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Cars/Prefabs/1963 convertable Variant.prefab
+  artifactKey: Guid(5ebd3dee368d35d46abc96fccd4047b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/1963 convertable Variant.prefab using Guid(5ebd3dee368d35d46abc96fccd4047b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050edf082cd9f267d47d5fdb31da7549') in 0.150465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Cars/Prefabs/1972 sedan Variant.prefab
+  artifactKey: Guid(fcf7e98dce28d8c4d9426d674599ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/1972 sedan Variant.prefab using Guid(fcf7e98dce28d8c4d9426d674599ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df65328f49d698ffeb883a9d35018be') in 0.127037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Cars/Prefabs/2012 offraoder Variant.prefab
+  artifactKey: Guid(6c82244af6c315341bc9d4fdc3e86558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/2012 offraoder Variant.prefab using Guid(6c82244af6c315341bc9d4fdc3e86558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53716a819f310385fb745ad95f906da0') in 0.197932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.592863 seconds.
+  path: Assets/Scenes/Level 0.unity
+  artifactKey: Guid(90f6a2587005e4c10b4faec154ec7c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 0.unity using Guid(90f6a2587005e4c10b4faec154ec7c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc1fcede972dbafda81e65d99a86b0b') in 0.002549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.733418 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 1.prefab
+  artifactKey: Guid(c242e8f877bfdcd41baf7688f8257e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 1.prefab using Guid(c242e8f877bfdcd41baf7688f8257e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727a83feab63bae64bdfefee091b4c6e') in 0.039659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 2.prefab
+  artifactKey: Guid(8ecb83e29c7a909498b3f578724b5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 2.prefab using Guid(8ecb83e29c7a909498b3f578724b5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1bf93f67b412aa918d66c0236c2959') in 0.051581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001158 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 3.prefab
+  artifactKey: Guid(2bce4e452d1732441a288976cac6660c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 3.prefab using Guid(2bce4e452d1732441a288976cac6660c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c17fe2b6cf20fe36f74765ba8738c7') in 0.056775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.443927 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Cars v2/Police Car v2 1.prefab
+  artifactKey: Guid(4d5eca5256c268d40a9be50903005eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Cars v2/Police Car v2 1.prefab using Guid(4d5eca5256c268d40a9be50903005eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc199da104f51dc34cbfff29b628e12f') in 0.026831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Cars v2/Police Car v2 3.prefab
+  artifactKey: Guid(09825d8753b7bfa47929c245690d59c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Cars v2/Police Car v2 3.prefab using Guid(09825d8753b7bfa47929c245690d59c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38c42fbc33e1893fb3dd79f1f27e69a') in 0.047473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001115 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Cars v2/Police Car v2 2.prefab
+  artifactKey: Guid(4a6998027130e224d90a7b922aa85591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Cars v2/Police Car v2 2.prefab using Guid(4a6998027130e224d90a7b922aa85591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e392e045a55ddb46b61b8c6f17eef7f') in 0.059696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.775774 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Cars v3/Police Car v3 1.prefab
+  artifactKey: Guid(3c6b87f2bce2f51409a9827cf9986b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Cars v3/Police Car v3 1.prefab using Guid(3c6b87f2bce2f51409a9827cf9986b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab9f802029fa96b57f9e501f368d36e') in 0.022943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Cars v3/Police Car v3 2.prefab
+  artifactKey: Guid(a9cc99afcecaa3145a4bd93adf85a113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Cars v3/Police Car v3 2.prefab using Guid(a9cc99afcecaa3145a4bd93adf85a113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63729a2a2b86819f739a937ffdf7e1ce') in 0.052337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Cars v3/Police Car v3 3.prefab
+  artifactKey: Guid(33ebbf53759c84c4795793bc6f9d4218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Cars v3/Police Car v3 3.prefab using Guid(33ebbf53759c84c4795793bc6f9d4218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589866467d42d1720cb495cdf65aa61a') in 0.079603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.605799 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Props/Roadblock 1.prefab
+  artifactKey: Guid(29b0da66082b5aa4582342dcd9833d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Props/Roadblock 1.prefab using Guid(29b0da66082b5aa4582342dcd9833d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceed5b0018fc67203f6365677053e426') in 0.020213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Props/Roadblock 3.prefab
+  artifactKey: Guid(02bdf7ef2e9d0d94187004dd7f81c600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Props/Roadblock 3.prefab using Guid(02bdf7ef2e9d0d94187004dd7f81c600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44420f5eee76405b33a09a06d6e5d428') in 0.053766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Props/Traffic Cone 2.prefab
+  artifactKey: Guid(e2dd87bb0ffe67246857cf5f17cdb576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Props/Traffic Cone 2.prefab using Guid(e2dd87bb0ffe67246857cf5f17cdb576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7637becab023f30d2c923f5986917096') in 0.051354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Props/Roadblock 2.prefab
+  artifactKey: Guid(46dedad0745e3a7489d1f23e843b2cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Props/Roadblock 2.prefab using Guid(46dedad0745e3a7489d1f23e843b2cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b476429e9dc09e75ef8d08e8899abe') in 0.049723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Props/Traffic Cone 1.prefab
+  artifactKey: Guid(c7573d662c1f9b045ad5daabdad93c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Props/Traffic Cone 1.prefab using Guid(c7573d662c1f9b045ad5daabdad93c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a6107f546a42a638414f7504a6762d') in 0.046284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/Props/Roadblock.prefab
+  artifactKey: Guid(55a88fe51352de546808f29d4535ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/Props/Roadblock.prefab using Guid(55a88fe51352de546808f29d4535ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28c47588f26ae27bca5ae818773af48') in 0.056028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.878457 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 1.prefab
+  artifactKey: Guid(d4d077297af596d43a41b47a26617283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 1.prefab using Guid(d4d077297af596d43a41b47a26617283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7402169774c58a4f8d4e26bcafd19f2') in 0.026423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 2.prefab
+  artifactKey: Guid(75116d7c25e79cc44a403f8888430543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 2.prefab using Guid(75116d7c25e79cc44a403f8888430543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b122d789dd915bb434b632c6a9d5b5') in 0.049677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 3.prefab
+  artifactKey: Guid(7103cd98e4b964d41b2205926caaf6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Police Car Pack/Prefabs/SWAT Cars/Swat Car 3.prefab using Guid(7103cd98e4b964d41b2205926caaf6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650acca520d6b1182f9e457a3a53860b') in 0.058894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 270.746626 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f93e96bedc4874e0da4752ab72cf7135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f93e96bedc4874e0da4752ab72cf7135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11332823fe1eff63616f54191c86761e') in 0.005272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.778687 seconds.
+  path: Assets/TutorialInfo/Scripts
+  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd40405b1c33fc38c3cf389a51b62526') in 0.004750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.589933 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor
+  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd757725371249e191449f57f634ec2') in 0.005388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.163466 seconds.
+  path: Assets/Scripts/Rotator.cs
+  artifactKey: Guid(4a88c94028193449f82f76124e4a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Rotator.cs using Guid(4a88c94028193449f82f76124e4a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7760436ba84f7f83c6e6589dff94d6') in 0.678195 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003208 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3515ms)
+		BeginReloadAssembly (486ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (223ms)
+		EndReloadAssembly (2783ms)
+			LoadAssemblies (314ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (716ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (298ms)
+			SetupLoadedEditorAssemblies (1189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (128ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (725ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 14.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3466 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.0 MB). Loaded Objects now: 3971.
+Memory consumption went from 267.2 MB to 266.2 MB.
+Total: 12.725239 ms (FindLiveObjects: 0.897662 ms CreateObjectMapping: 0.768551 ms MarkObjects: 9.686189 ms  DeleteObjects: 1.368629 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004018 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3462ms)
+		BeginReloadAssembly (833ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (314ms)
+		EndReloadAssembly (2302ms)
+			LoadAssemblies (674ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (750ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (866ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (72ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (559ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.0 MB). Loaded Objects now: 3974.
+Memory consumption went from 267.6 MB to 266.6 MB.
+Total: 10.453816 ms (FindLiveObjects: 0.537522 ms CreateObjectMapping: 0.523187 ms MarkObjects: 7.914278 ms  DeleteObjects: 1.474867 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
