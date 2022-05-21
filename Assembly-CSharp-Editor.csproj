@@ -945,14 +945,8 @@
      <Reference Include="UnityEditor.TestRunner">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Notifications">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Notifications.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -960,35 +954,8 @@
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Profiling.Core">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Profiling.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TextMeshPro">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Subsystem.Registration">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.AdaptivePerformance.UI.Editor">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.UI.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UI">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
@@ -996,53 +963,86 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Notifications.iOS">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Notifications.iOS.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Services.Core">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.AdaptivePerformance.Editor">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Services.Core.Environments">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Notifications">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Notifications.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Notifications.iOS">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Notifications.iOS.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.AdaptivePerformance">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Notifications.Android">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
+     <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Subsystem.Registration">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AdaptivePerformance.Profiler.Editor">
      <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     <Reference Include="Unity.AdaptivePerformance.Editor">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Notifications.Android">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Profiling.Core">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Profiling.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AdaptivePerformance.UI.Editor">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.AdaptivePerformance.UI.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+     <HintPath>/Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

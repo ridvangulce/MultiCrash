@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
+    public float rotateSpeed;
+
     private void Update()
     {
-        gameObject.transform.Rotate(0,180,0);
+        transform.Rotate(0, rotateSpeed * Time.deltaTime, 0);
     }
 }

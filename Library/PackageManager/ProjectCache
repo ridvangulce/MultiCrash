@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637886836680000000
+      ticks: 637887466260000000
     m_Hash: 3520052721
   m_LockFileStatus:
     m_FilePath: /Users/ridvangulce/Desktop/UnityProjects/MultiCrash/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637886836820000000
+      ticks: 637887466910000000
     m_Hash: 3822567067
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3189,10 +3189,16 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.4
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
     - 1.1.0
+    - 1.1.1
     compatible:
     - 1.1.0
-    verified: 1.1.0
+    - 1.1.1
+    verified: 1.1.1
   dependencies:
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -3214,7 +3220,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637314426150000000
   documentationUrl: 
   hasRepository: 1
   repository:
